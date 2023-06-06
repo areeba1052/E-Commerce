@@ -30,7 +30,7 @@ app.use("/auth", authRoutes);
 
 
 app.get("/",(req,res)=>{
- res.setHeader("Access-Control-Allow-Credentials", "true");
+
     res.send("ADMIN PANEL RUNNING SUCCESSFULLY")
 })
 
